@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  width: 60% !important;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.container .r1 {
+  height: 90vh;
+}
+
+.container .r1 .d1 {
+  padding: 0px !important;
+  background-color: #3b3b3b;
+  border-right: 1px solid black;
+}
+
+.container .r1 .d1 i, .container .r1 .d1 p {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #a8a8a8;
+}
+
+.container .r1 .d1 .head {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid black;
+  border-top-left-radius: 10px;
+}
+
+.container .r1 .d1 .head h5 {
+  position: relative;
+  font-weight: bold;
+  top: 50px;
+  left: 15px;
+  color: #a8a8a8;
+}
+
+.container .r1 .d1 .div1 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+.container .r1 .d1 .div1 i {
+  font-size: 29px;
+  margin: 10px 15px;
+}
+
+.container .r1 .d1 .div1 p {
+  position: relative;
+  width: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  top: 9px;
+}
+
+.container .r1 .d1 .div2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+.container .r1 .d1 .div2 i {
+  font-size: 29px;
+  margin: 10px 15px;
+}
+
+.container .r1 .d1 .div2 p {
+  position: relative;
+  width: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  top: 9px;
+}
+
+.container .r1 .d1 .d3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  border-bottom: 1px solid black;
+}
+
+.container .r1 .d1 .d3 i {
+  font-size: 29px;
+  margin: 10px 15px;
+}
+
+.container .r1 .d1 .d3 p {
+  position: relative;
+  width: 80px;
+  font-weight: bold;
+  font-size: 20px;
+  top: 9px;
+}
+
+.container .r1 .d1 .div1:hover i {
+  color: red;
+}
+
+.container .r1 .d1 .div1:hover p {
+  color: #66ff00;
+}
+
+.container .r1 .d1 .div2:hover i {
+  color: red;
+}
+
+.container .r1 .d1 .div2:hover p {
+  color: #66ff00;
+}
+
+.container .r1 .d1 .d3:hover i {
+  color: red;
+}
+
+.container .r1 .d1 .d3:hover p {
+  color: #66ff00;
+}
+
+.container .r1 .d2 {
+  padding: 0px !important;
+}
+
+.container .r1 .d2 .topdiv {
+  border-bottom: 1px solid black;
+  width: 100%;
+  height: 100px;
+  background-color: #cccccc;
+}
+
+.container .r1 .d2 .topdiv i {
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  left: 20px;
+  top: 25px;
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  border-radius: 5px;
+  place-items: center;
+  background-color: green;
+}
+
+.container .r1 .d2 .topdiv i:hover {
+  color: red;
+  background-color: black;
+}
+
+.container .r1 .d2 .topdiv .rightDiv {
+  position: relative;
+  top: -30px;
+  left: 350px;
+}
+
+.container .r1 .d2 .topdiv .rightDiv .p1 {
+  font-weight: bold;
+}
+
+.container .r1 .d2 .topdiv .rightDiv .p2 {
+  position: relative;
+  top: -20px;
+  font-weight: bold;
+}
+
+.container .r1 .d2 .topdiv .rightDiv .p2 b {
+  color: #44aa00;
+}
+
+.container .r1 .d2 .bottomdiv {
+  width: 100%;
+  height: 600px;
+  background-color: #a1a1a1;
+}
+
+.container .r1 .d2 .bottomdiv h1 {
+  position: relative;
+  text-align: center;
+  top: 50px;
+  font-size: 25px;
+}
+
+.container .r1 .d2 .bottomdiv #maininp {
+  position: relative;
+  padding: 15px;
+  font-size: 20px;
+  height: 70px;
+  border-radius: 5px;
+  border: 1px solid black;
+  outline: none;
+  width: 95%;
+  margin: 60px 10px;
+}
+
+.container .r1 .d2 .bottomdiv .betweeninp {
+  position: relative;
+  margin: -25px 10px;
+}
+
+.container .r1 .d2 .bottomdiv .betweeninp input {
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+  height: 70px;
+  font-size: 20px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.container .r1 .d2 .bottomdiv button {
+  position: relative;
+  width: 96%;
+  margin: 50px 10px;
+  padding: 10px;
+  color: black;
+  font-size: 15px;
+  border: 1px solid black;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  background-color: #00d300;
+}
+
+.container .r1 .d2 .bottomdiv button:hover {
+  color: red;
+  border: 2px solid red;
+  background-color: black;
+}
+
+.container .r1 .d2 .bottomdiv p {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  margin: -15px 0px;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.container .r1 .d2 .bottomdiv p:hover {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
